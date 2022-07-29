@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.bg-verde {
+    background-color: #28A745;
+    padding: 1rem;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+#productos {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.logo {
+    display: flex;
+    padding: 1rem;  
+} 
+
+.card-subtitle, .card-text, .no-resaltado {
+    color: #707070;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+}
+
+.card-text {
+    font-size: 0.8rem;
+}
+
+.resaltado {
+    color: #28A745;
+    font-weight: 500;
+}
+
+.no-resaltado, .resaltado {
+    padding-right: 1rem;
+}
+
+.row {
+    display: flex;
+}
+
+.ml-auto, .mx-auto {
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+footer {
+    text-align: center;
+    height: 5em;
+    margin: 2em;
+}
+
+footer p{
+    font-weight: 300;
+    font-size: 95%;
+
+}
+
+footer img{
+    block-size: 1.5em;
+    margin: 0.8em;
+}
